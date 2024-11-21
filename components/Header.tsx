@@ -27,7 +27,7 @@ function Header() {
           <div className="flex  w-[1154px] pt-3 pb-3">
             <div className="flex  gap-3 pl-16">
               <div>
-                <p className="text-[14px]">Phone Number: 956 742 455 678 </p>{" "}
+                <p className="text-[14px]">Phone Number: 956 742 455 678 </p>
               </div>
               <div className="text-[#676767] ">|</div>
               <div>

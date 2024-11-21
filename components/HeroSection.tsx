@@ -9,7 +9,7 @@ const roboto = Roboto({
 
 function HeroSection() {
   return (
-    <div className={`${roboto.className} flex`}>
+    <div className={`${roboto.className} flex w-[1280px]`}>
       <div className='w-[640px] h-[300px] ml-20  mt-[200px] '>
         <div className='w-[500px] '>
          <h1 className='font-bold text-[56px]'>
@@ -28,7 +28,7 @@ function HeroSection() {
       </div>
 
 
-      <div >
+      <div>
        <Image src={"/img.jpg"} alt='girlPicture' width={640} height={900}/>
 
 

@@ -37,7 +37,7 @@ function TeamSection() {
                <div className='w-[1280px] h-[273] gap-12  flex'>
                                 
                                 {/* 1 James Nduku box */}
-               <div className='w-[394px] h-[273px] gap-6  flex flex-col  items-center'>
+               <div className='w-[394px] h-[273px]  flex flex-col  items-center'>
                     <Image src={"/james.svg"} alt='james Pic' width={80} height={80}/>
                <p className='text-[20px] leading-[30px] font-semibold  '>
                 James Nduku
@@ -48,16 +48,16 @@ function TeamSection() {
                 </p>
 
                 <div className='flex gap-[14px] mt-9'>
-                 <FaLinkedin className='w-6 h-6'/>
-                 <FaTwitter className='w-6 h-6'/>
-                 <FaDribbble className='w-6 h-6'/>
+                 <FaLinkedin className='w-[18px] h-[18px]'/>
+                 <FaTwitter className='w-[18px] h-[15.3px]'/>
+                 <FaDribbble className='w-[18px] h-[18px]'/>
                 </div>
                  </div>
 
 
                                           
                                           {/*2 Joseph Munyambu box */}
-                 <div className='w-[394px] h-[273px] gap-6  flex flex-col  items-center'>
+                 <div className='w-[394px] h-[273px]   flex flex-col  items-center'>
                     <Image src={"/Jose-img.svg"} alt='joseph Pic' width={80} height={80}/>
                <p className='text-[20px] leading-[30px] font-semibold  '>
                Joseph Munyambu
@@ -68,9 +68,9 @@ function TeamSection() {
                 </p>
 
                 <div className='flex gap-[14px] mt-9'>
-                 <FaLinkedin className='w-6 h-6'/>
-                 <FaTwitter className='w-6 h-6'/>
-                 <FaDribbble className='w-6 h-6'/>
+                 <FaLinkedin className='w-[18px] h-[18px]'/>
+                 <FaTwitter className='w-[18px] h-[15.3px]'/>
+                 <FaDribbble className='w-[18px] h-[18px]'/>
                 </div>
                  </div>
 
@@ -79,7 +79,7 @@ function TeamSection() {
 
 
                                                 {/* 3 Joseph Ngumbau box */}
-                 <div className='w-[394px] h-[273px] gap-6  flex flex-col  items-center'>
+                 <div className='w-[394px] h-[273px]   flex flex-col  items-center'>
                     <Image src={"/joseph-img.svg"} alt=' Pic' width={80} height={80}/>
                <p className='text-[20px] leading-[30px] font-semibold  '>
                Joseph Ngumbau
@@ -90,9 +90,9 @@ function TeamSection() {
                 </p>
 
                 <div className='flex gap-[14px] mt-9'>
-                 <FaLinkedin className='w-6 h-6'/>
-                 <FaTwitter className='w-6 h-6'/>
-                 <FaDribbble className='w-6 h-6'/>
+                 <FaLinkedin className='w-[18px] h-[18px]'/>
+                 <FaTwitter className='w-[18px] h-[15.3px]'/>
+                 <FaDribbble className='w-[18px] h-[18px]'/>
                 </div>
                  </div>
 
@@ -112,7 +112,7 @@ function TeamSection() {
                 <div className='w-[1280px] h-[273] gap-12  flex mt-20'>
 
                               {/* 4 Erick Kipkemboi box */}
-<div className='w-[394px] h-[273px] gap-6  flex flex-col  items-center'>
+<div className='w-[394px] h-[273px]   flex flex-col  items-center'>
      <Image src={"/erick-img.svg"} alt='erick Pic' width={80} height={80}/>
 <p className='text-[20px] leading-[30px] font-semibold  '>
 Erick Kipkemboi
@@ -123,11 +123,17 @@ Erick Kipkemboi
  </p>
 
 
+ <div className='flex gap-[14px] mt-9'>
+                 <FaLinkedin className='w-[18px] h-[18px]'/>
+                 <FaTwitter className='w-[18px] h-[15.3px]'/>
+                 <FaDribbble className='w-[18px] h-[18px]'/>
+                </div>
+
   </div>
 
 
                                  {/* Stephen Kerubo box */}
-  <div className='w-[394px] h-[273px] gap-6  flex flex-col  items-center'>
+  <div className='w-[394px] h-[273px]   flex flex-col  items-center'>
      <Image src={"/stephen-img.svg"} alt='stephen Pic' width={80} height={80}/>
 <p className='text-[20px] leading-[30px] font-semibold  '>
 Stephen Kerubo
@@ -138,12 +144,19 @@ Stephen Kerubo
  </p>
 
 
+
+ <div className='flex gap-[14px] mt-9'>
+                 <FaLinkedin className='w-[18px] h-[18px]'/>
+                 <FaTwitter className='w-[18px] h-[15.3px]'/>
+                 <FaDribbble className='w-[18px] h-[18px]'/>
+                </div>
+
   </div>
 
 
 
                               {/* John Leboo box */}
-  <div className='w-[394px] h-[273px] gap-6  flex flex-col  items-center'>
+  <div className='w-[394px] h-[273px]   flex flex-col  items-center'>
      <Image src={"/john-img.svg"} alt='john Pic' width={80} height={80}/>
 <p className='text-[20px] leading-[30px] font-semibold  '>
 John Leboo
@@ -153,6 +166,13 @@ John Leboo
  Dog Trainer
  </p>
 
+
+
+ <div className='flex gap-[14px] mt-9'>
+                 <FaLinkedin className='w-[18px] h-[18px]'/>
+                 <FaTwitter className='w-[18px] h-[15.3px]'/>
+                 <FaDribbble className='w-[18px] h-[18px]'/>
+                </div>
 
   </div>
 
