@@ -42,10 +42,10 @@ function Courses() {
               <div className='w-[1312px] h-[534px]  flex mt-11 gap-8'>
                     {/* Ui/UX Design ourse Detail */}
                   <div className='w-[416px] h-[534px] rounded-[5px]  bg-primary'>
-                              <Image src={"/uiux-image.svg"} alt='uiux design' width={416} height={300}/>
+                              <Image src={"/uiux-Image.svg"} alt='uiux design' width={416} height={300}/>
                       <div className='flex mt-5'>
                       <p className='font-[600px] text-[14px] w-[326px] h-[21px] ml-2'>Design</p>
-                      <Image src={"/star.svg"} alt="star" height={24} width={24} />
+                      <Image src={"/Star.svg"} alt="star" height={24} width={24} />
                       <p className='w-5 h-6 font-semibold text-[14px] ml-2'>5.0</p>
                       </div>
 
@@ -66,7 +66,7 @@ function Courses() {
                               <Image src={"/python.svg"} alt='python image' width={416} height={300}/>
                       <div className='flex mt-5'>
                       <p className='font-[600px] text-[14px] w-[326px] h-[21px] ml-2'>Programmimg</p>
-                      <Image src={"/star.svg"} alt="star" height={24} width={24} />
+                      <Image src={"/Star.svg"} alt="star" height={24} width={24} />
                       <p className='w-5 h-6 font-semibold text-[14px] ml-2 '>5.0</p>
                       </div>
 
@@ -90,7 +90,7 @@ function Courses() {
                               <Image src={"/data-analysis.svg"} alt='Data Analysis' width={416} height={300}/>
                       <div className='flex mt-5'>
                       <p className='font-[600px] text-[14px] w-[326px] h-[21px] ml-2'>Business</p>
-                      <Image src={"/star.svg"} alt="star" height={24} width={24} />
+                      <Image src={"/Star.svg"} alt="star" height={24} width={24} />
                       <p className='w-5 h-6 font-semibold text-[14px] ml-2 '>5.0</p>
                       </div>
 
@@ -117,7 +117,7 @@ function Courses() {
                               <Image src={"/art.svg"} alt='art' width={416} height={300}/>
                       <div className='flex mt-5'>
                       <p className='font-[600px] text-[14px] w-[326px] h-[21px] ml-2'>Art</p>
-                      <Image src={"/star.svg"} alt="star" height={24} width={24} />
+                      <Image src={"/Star.svg"} alt="star" height={24} width={24} />
                       <p className='w-5 h-6 font-semibold text-[14px] ml-2'>5.0</p>
                       </div>
 
@@ -140,7 +140,7 @@ function Courses() {
                               <Image src={"/law.svg"} alt='law' width={416} height={300}/>
                       <div className='flex mt-5'>
                       <p className='font-[600px] text-[14px] w-[326px] h-[21px] ml-2'>Law</p>
-                      <Image src={"/star.svg"} alt="star" height={24} width={24} />
+                      <Image src={"/Star.svg"} alt="star" height={24} width={24} />
                       <p className='w-5 h-6 font-semibold text-[14px] ml-2'>5.0</p>
                       </div>
 
@@ -165,7 +165,7 @@ function Courses() {
                               <Image src={"/webflow.svg"} alt='webflow' width={416} height={300}/>
                       <div className='flex mt-5'>
                       <p className='font-[600px] text-[14px] w-[326px] h-[21px] ml-2'>Tech</p>
-                      <Image src={"/star.svg"} alt="star" height={24} width={24} />
+                      <Image src={"/Star.svg"} alt="star" height={24} width={24} />
                       <p className='w-5 h-6 font-semibold text-[14px] ml-2'>5.0</p>
                       </div>
 

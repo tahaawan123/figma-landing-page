@@ -15,7 +15,7 @@ const Logo = () => {
        </div>
 
         <div>
-            <Image src={"/logos.svg"} alt='logo2' width={880} height={56} />
+            <Image src={"/Logos.svg"} alt='logo2' width={880} height={56} />
         </div>
       </div>
     </div>
