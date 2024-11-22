@@ -58,7 +58,7 @@ function TeamSection() {
                                           
                                           {/*2 Joseph Munyambu box */}
                  <div className='w-[394px] h-[273px]   flex flex-col  items-center'>
-                    <Image src={"/Jose-img.svg"} alt='joseph Pic' width={80} height={80}/>
+                    <Image src={"/jose-img.svg"} alt='joseph Pic' width={80} height={80}/>
                <p className='text-[20px] leading-[30px] font-semibold  '>
                Joseph Munyambu
                 </p>
