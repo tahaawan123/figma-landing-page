@@ -13,21 +13,21 @@ function CustomerSection() {
   return (
     <div className={roboto.className}>
          {/* main div */}
-         <div className='w-[1280px] h-[830px] pt-[112px] bt-[112px] pl-16 pr-16 bg-primary'>
+         <div className='w-[1280px] h-[830px] pt-[112px] bt-[112px] pl-16 pr-16 bg-primary max-sm:w-[428px] max-sm:h-auto  max-sm:py-12 max-sm:px-6'>
                                  
                                  {/* Heading container */}
-                 <div className='w-[560px] h-[109px] '>
-                       <h2 className='font-bold text-5xl leading-[57.6px]'>Customer testimonials</h2>
+                 <div className='w-[560px] h-[109px]    max-sm:w-[361px]'>
+                       <h2 className='font-bold text-5xl leading-[57.6px]   max-sm:text-[32px]'>Customer testimonials</h2>
                        <p className='text-[18px] leading-[27px] pt-6'>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
                  </div>
                         
 
                         {/* main box containr */}
-                 <div className='w-[1152px] h-[321px] mt-20 flex gap-8'>
+                 <div className='w-[1152px] h-[321px] mt-20 flex gap-8 max-sm:flex-col max-sm:h-auto max-sm:w-[380px]'>
                      
                      {/* 1st box */}
 
-                     <div className='w-[362px] h-[321px] border border-black p-8 gap-6'>
+                     <div className='w-[362px] h-[321px] border border-black p-8 gap-6 '>
                       <div className='flex'>
                        <FaStar/>
                        <FaStar/>
@@ -124,7 +124,7 @@ function CustomerSection() {
 
 
 
-           <div className='w-[1152px] mt-11 h-12 flex justify-between'>
+           <div className='w-[1152px] mt-11 h-12 flex justify-between max-sm:w-[380px]'>
             <Image src={"/Dots.svg"} alt='dot' height={8} width={72}/>
             <Image src={"/slider.svg"} alt='buttons' height={48} width={111}/>
            </div>

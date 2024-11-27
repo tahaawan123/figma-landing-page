@@ -9,13 +9,18 @@ const roboto =Roboto({
 const Logo = () => {
   return (
     <div className={roboto.className}>
-      <div className='w-[1280px] h-[228px] pt-20 pb-20 pl-16 pr-16 bg-primary flex'>
+      <div className='max-w-[1280px] h-[228px] pt-20 pb-20 pl-16 pr-16 bg-primary flex  max-sm:bg-white max-sm:flex-col'>
        <div className='w-[320px] h-[68px]' >
         <h5 className='font-bold text-2xl'>Trusted by 2000+ companies worldwide.</h5>
        </div>
 
-        <div>
-            <Image src={"/Logos.svg"} alt='logo2' width={880} height={56} />
+        <div className='flex ml-20 max-sm:flex-wrap'>
+            <Image src={"/Airbnb-logo1.svg"} alt='logo2' width={124} height={38} />
+            <Image src={"/Airbnb-logo2.svg"} alt='logo2' width={124} height={38} />
+            <Image src={"/Airbnb-logo3.svg"} alt='logo3' width={124} height={38} />
+            <Image src={"/Airbnb-logo4.svg"} alt='logo4' width={124} height={38} />
+            <Image src={"/Airbnb-logo5.svg"} alt='logo5' width={124} height={38} />
+            <Image src={"/Airbnb-logo6.svg"} alt='logo6' width={124} height={38} />
         </div>
       </div>
     </div>

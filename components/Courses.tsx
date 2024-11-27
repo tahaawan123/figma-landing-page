@@ -12,16 +12,17 @@ const roboto=Roboto({
 function Courses() {
   return (
     <div className={roboto.className}>
-        {/* main div */}
-        <div className='w-[1280px] h-[1742px] pt-[112px] pb-[112px]  '>
+        {/* main container*/}
+        <div className='w-[1280px] h-[1742px] pt-[112px] pb-[112px]    max-sm:w-[428px] max-sm:h-auto max-sm:py-12 max-sm:px-6'>
            
-           <div className='w-[786px] h-[118px]  mx-auto   '>
-           <h1 className='font-bold text-[56px] leading-[67.2px] text-center'> Courses</h1>
+           <div className='w-[786px] h-[118px]  mx-auto     max-sm:w-[249px]  '>
+           <h1 className='font-bold text-[56px] leading-[67.2px] text-center   max-sm:text-[32px]'> Courses</h1>
            <p className='text-[18px] leading-[27px] text-center mt-5'>Your Ultimate Guide to learning</p>
            </div>
-
-           <div className='w-[1152px] h-[1340px]  mt-10 '>
-            
+                
+                         {/* 2nd main container */}
+           <div className='w-[1152px] h-[1340px]  mt-10   max-sm:w-[380px] max-sm:h-auto '>
+                                     
                   <ul className='w-[336px] h-[40px] flex mx-auto'>
                     <li className='w-[87px]  border-b border-[#676767] pt-2 pb-2 pr-4 pl-4 '>
                     Popular
@@ -35,14 +36,14 @@ function Courses() {
                   </ul>
             
 
-                            {/* first Row */}
+                  
 
 
             {/* courses Images and details */}
-              <div className='w-[1312px] h-[534px]  flex mt-11 gap-8'>
-                    {/* Ui/UX Design ourse Detail */}
-                  <div className='w-[416px] h-[534px] rounded-[5px]  bg-primary'>
-                              <Image src={"/uiux-Image.svg"} alt='uiux design' width={416} height={300}/>
+              <div className='w-[1280px] h-[534px]  grid grid-cols-3 mt-11 gap-8   max-sm:grid-cols-1  max-sm:w-[380px] max-sm:h-auto'>
+                    {/*1 Ui/UX Design ourse Detail */}
+                  <div className='w-[416px] h-[534px] rounded-[5px]  bg-primary max-sm:w-[380px]'>
+                              <Image className='max-sm:w-[380px]' src={"/uiux-Image.svg"} alt='uiux design' width={416} height={300}/>
                       <div className='flex mt-5'>
                       <p className='font-[600px] text-[14px] w-[326px] h-[21px] ml-2'>Design</p>
                       <Image src={"/Star.svg"} alt="star" height={24} width={24} />
@@ -61,9 +62,9 @@ function Courses() {
 
 
            
-                    {/* Introduction to Python */}
-                  <div className='w-[416px] h-[534px] rounded-[5px]  bg-primary'>
-                              <Image src={"/python.svg"} alt='python image' width={416} height={300}/>
+                    {/*2 Introduction to Python */}
+                  <div className='w-[416px] h-[534px] rounded-[5px]  bg-primary max-sm:w-[380px]'>
+                              <Image className='max-sm:w-[380px]' src={"/python.svg"} alt='python image' width={416} height={300}/>
                       <div className='flex mt-5'>
                       <p className='font-[600px] text-[14px] w-[326px] h-[21px] ml-2'>Programmimg</p>
                       <Image src={"/Star.svg"} alt="star" height={24} width={24} />
@@ -85,9 +86,9 @@ function Courses() {
 
 
            
-                    {/* Data Analysis for Beginners*/}
-                  <div className='w-[416px] h-[534px] rounded-[5px]  bg-primary'>
-                              <Image src={"/data-analysis.svg"} alt='Data Analysis' width={416} height={300}/>
+                    {/*3 Data Analysis for Beginners*/}
+                  <div className='w-[416px] h-[534px] rounded-[5px]  bg-primary max-sm:w-[380px]'>
+                              <Image className='max-sm:w-[380px]' src={"/data-analysis.svg"} alt='Data Analysis' width={416} height={300}/>
                       <div className='flex mt-5'>
                       <p className='font-[600px] text-[14px] w-[326px] h-[21px] ml-2'>Business</p>
                       <Image src={"/Star.svg"} alt="star" height={24} width={24} />
@@ -102,19 +103,18 @@ function Courses() {
                             <p className='w-[77px] h-[40px] rounded-[5px] pt-2 pb-2 pr-5 pl-5'>$400</p>
                       </div>
                   </div>
-                  </div>
               
                 
 
-                          {/*  2nd row*/}
+                        
 
                       
 
-            {/* Art Specialization */}
-              <div className='w-[1312px] h-[534px] gap-8 flex mt-6'>
-                    {/* Ui/UX Design ourse Detail */}
-                  <div className='w-[416px] h-[534px] rounded-[5px]  bg-primary'>
-                              <Image src={"/art.svg"} alt='art' width={416} height={300}/>
+            {/*4 Art Specialization */}
+          
+              
+                  <div className='w-[416px] h-[534px] rounded-[5px]  bg-primary  max-sm:w-[380px]'>
+                              <Image className='max-sm:w-[380px]' src={"/art.svg"} alt='art' width={416} height={300}/>
                       <div className='flex mt-5'>
                       <p className='font-[600px] text-[14px] w-[326px] h-[21px] ml-2'>Art</p>
                       <Image src={"/Star.svg"} alt="star" height={24} width={24} />
@@ -135,9 +135,9 @@ function Courses() {
 
 
            
-                    {/* Rule of Law */}
-                  <div className='w-[416px] h-[534px] rounded-[5px]  bg-primary'>
-                              <Image src={"/law.svg"} alt='law' width={416} height={300}/>
+                    {/*5 Rule of Law */}
+                  <div className='w-[416px] h-[534px] rounded-[5px]  bg-primary max-sm:w-[380px]'>
+                              <Image className='max-sm:w-[380px]' src={"/law.svg"} alt='law' width={416} height={300}/>
                       <div className='flex mt-5'>
                       <p className='font-[600px] text-[14px] w-[326px] h-[21px] ml-2'>Law</p>
                       <Image src={"/Star.svg"} alt="star" height={24} width={24} />
@@ -158,11 +158,11 @@ function Courses() {
 
 
 
-                    {/* Introduction to webflow*/}
+                    {/*6 Introduction to webflow*/}
 
            
-                  <div className='w-[416px] h-[534px] rounded-[5px]  bg-primary'>
-                              <Image src={"/webflow.svg"} alt='webflow' width={416} height={300}/>
+                  <div className='w-[416px] h-[534px] rounded-[5px]  bg-primary max-sm:w-[380px]'>
+                              <Image className='max-sm:w-[380px]' src={"/webflow.svg"} alt='webflow' width={416} height={300}/>
                       <div className='flex mt-5'>
                       <p className='font-[600px] text-[14px] w-[326px] h-[21px] ml-2'>Tech</p>
                       <Image src={"/Star.svg"} alt="star" height={24} width={24} />
@@ -180,15 +180,16 @@ function Courses() {
                   </div>
                   </div>
               
-                   <div className='  flex justify-center items-center mt-28'>
+                 
+               
+
+                </div>
+                <div className='  flex justify-center items-center '>
                 <button className='w-[170px] h-10 border border-black rounded-[5xl] pt-2 pb-2 pr-4 pl-4  ' >View All Courses</button>
                 </div>
+               
 
-
-
-
-
-                </div>
+               
         </div>
     </div>
   )

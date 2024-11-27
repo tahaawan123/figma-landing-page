@@ -10,24 +10,25 @@ const roboto = Roboto({
 const ExploreCoursesSection = () => {
   return (
     <div className={roboto.className}>
-      <div className="w-[1280px] h-[850px] pt-[112px]  pb-[112px] pr-[64px]  ">
-      <div className="w-[768px] h-[109px]  mx-auto mb-16  ">
-        <h2 className="font-bold text-5xl leading-[57.6px]">Explore Courses By Category</h2>
+                    {/* main container */}
+      <div className="w-[1280px] h-[1049px] pt-[112px]  pb-[112px] pr-[64px] max-sm:w-[428px] max-sm:py-[48px] max-sm:px-[24px] max-sm:mt-40 max-sm:h-auto">
+                     {/* Heading container */}
+      <div className="w-[768px] h-[109px]  mx-auto mb-16 max-sm:w-[385px] ">
+        <h2 className="font-bold text-5xl leading-[57.6px] max-sm:text-[32px] max-sm:text-center ">Explore Courses By Category</h2>
         <p className="text-[18px] mt-4 leading-5">
           Discover a wide range of courses covering a variety of subjects,
           taught by expert instructors.
         </p>
       </div>
 
-        {/* main div of Courses By Category */}
-      <div className="w-[1280] h-[636]">
+      
         
-          {/* main div of box  */}
-        <div className="h-[132px] gap-6 grid grid-cols-3 ">
+          {/* main box  */}
+        <div className="w-[1280px] h-[636px] gap-6 grid grid-cols-3 max-sm:grid-cols-1 max-sm:w-[380px]  max-sm:mt-28 max-sm:pr-4 max-sm:h-auto">
           
 
           {/*  1st box */}
-          <div className="bg-primary p-4 rounded-[5px] w-[410px] flex gap-8">
+          <div className="bg-primary p-4 rounded-[5px] w-[410px] max-sm:w-[380px] flex gap-8">
             <div className="w-[100px] h-[100px] p-[34px] rounded-[5px] bg-white ">
               <Image
                 src={"/pen-tool-2.svg"}
@@ -46,7 +47,7 @@ const ExploreCoursesSection = () => {
 
 
           {/*  2nd box */}
-          <div className="bg-primary p-4 rounded-[5px] w-[410px] flex gap-6">
+          <div className="bg-primary p-4 rounded-[5px] w-[410px] flex gap-6 max-sm:w-[380px]">
             <div className="w-[100px] h-[100px] p-[34px] rounded-[5px] bg-white ">
               <Image
                 src={"/volume-high.svg"}
@@ -64,7 +65,7 @@ const ExploreCoursesSection = () => {
 
 
           {/*  3rd box */}
-          <div className="bg-primary p-4 rounded-[5px] w-[410px] flex gap-6">
+          <div className="bg-primary p-4 rounded-[5px] w-[410px] flex gap-6 max-sm:w-[380px]">
             <div className="w-[100px] h-[100px] p-[34px] rounded-[5px] bg-white ">
               <Image src={"/group.svg"} alt="group" width={32} height={32} />
             </div>
@@ -77,7 +78,7 @@ const ExploreCoursesSection = () => {
 
 
           {/*  4rth box */}
-          <div className="bg-primary p-4 rounded-[5px] w-[410px] flex gap-6">
+          <div className="bg-primary p-4 rounded-[5px] w-[410px] flex gap-6 max-sm:w-[380px]">
             <div className="w-[100px] h-[100px] p-[34px] rounded-[5px] bg-white ">
               <Image
                 src={"/microphone.svg"}
@@ -95,7 +96,7 @@ const ExploreCoursesSection = () => {
 
 
           {/*  5th box */}
-          <div className="bg-primary p-4 rounded-[5px] w-[410px] flex gap-6">
+          <div className="bg-primary p-4 rounded-[5px] w-[410px] flex gap-6 max-sm:w-[380px]">
             <div className="w-[100px] h-[100px] p-[34px] rounded-[5px] bg-white ">
               <Image src={"/link.svg"} alt="link" width={32} height={32} />
             </div>
@@ -109,7 +110,7 @@ const ExploreCoursesSection = () => {
 
 
           {/*  6th box */}
-          <div className="bg-primary p-4 rounded-[5px] w-[410px] flex gap-6">
+          <div className="bg-primary p-4 rounded-[5px] w-[410px] flex gap-6 max-sm:w-[380px]">
             <div className="w-[100px] h-[100px] p-[34px] rounded-[5px] bg-white ">
               <Image src={"/arrow-2.svg"} alt="arrow" width={32} height={32} />
             </div>
@@ -122,7 +123,7 @@ const ExploreCoursesSection = () => {
 
 
           {/*  7th box */}
-          <div className="bg-primary p-4 rounded-[5px] w-[410px] flex gap-6">
+          <div className="bg-primary p-4 rounded-[5px] w-[410px] flex gap-6 max-sm:w-[380px]">
             <div className="w-[100px] h-[100px] p-[34px] rounded-[5px] bg-white ">
               <Image
                 src={"/briefcase.svg"}
@@ -141,7 +142,7 @@ const ExploreCoursesSection = () => {
 
 
           {/*  8th box */}
-          <div className="bg-primary p-4 rounded-[5px] w-[410px] flex gap-6">
+          <div className="bg-primary p-4 rounded-[5px] w-[410px] flex gap-6 max-sm:w-[380px]">
             <div className="w-[100px] h-[100px] p-[34px] rounded-[5px] bg-white ">
               <Image src={"/book.svg"} alt="book" width={32} height={32} />
             </div>
@@ -155,7 +156,7 @@ const ExploreCoursesSection = () => {
 
 
           {/*  9th box */}
-          <div className="bg-primary p-4 rounded-[5px] w-[410px] flex gap-6">
+          <div className="bg-primary p-4 rounded-[5px] w-[410px] flex gap-6 max-sm:w-[380px]">
             <div className="w-[100px] h-[100px] p-[34px] rounded-[5px] bg-white ">
               <Image src={"/book-2.svg"} alt="book-2" width={32} height={32} />
             </div>
@@ -168,19 +169,19 @@ const ExploreCoursesSection = () => {
 
 
         
-         <div className="w-[155px] h-12 rounded-[5px] p-3  border border-black ml-[600px] mt-10">
-            <button type="button" >
+
+
+
+      
+
+      </div>
+
+
+         <div className="flex justify-center items-center">
+            <button type="button" className="w-[155px] h-12 rounded-[5px] p-3  border border-black mt-10">
             View All Courses
             </button>
-            </div>
-
-
-
-      </div>
-
-      </div>
-
-
+         </div>
      
       </div>
 

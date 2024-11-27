@@ -9,10 +9,10 @@ const roboto = Roboto({
 
 function HeroSection() {
   return (
-    <div className={`${roboto.className} flex w-[1280px]`}>
-      <div className='w-[640px] h-[300px] ml-20  mt-[200px] '>
-        <div className='w-[500px] '>
-         <h1 className='font-bold text-[56px]'>
+    <div className={`${roboto.className} flex w-[1280px] max-sm:flex-col `}>
+      <div className='w-[640px] h-[300px] ml-20  mt-[200px] max-sm:pl-6 pr-6 max-sm:h-[390px] max-sm:mt-16 max-sm:ml-0'>
+        <div className='w-[500px] max-sm:w-[380px] '>
+         <h1 className='font-bold text-[56px] max-sm:text-[40px] '>
          Learn new skills online with ease
          </h1>
          <p className='text-[18px]'>
@@ -28,7 +28,7 @@ function HeroSection() {
       </div>
 
 
-      <div>
+      <div className='max-sm:w-[428px] '>
        <Image src={"/img.jpg"} alt='girlPicture' width={640} height={900}/>
 
 

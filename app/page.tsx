@@ -10,7 +10,7 @@ import CustomerSection from '@/components/CustomerSection'
 import Footer from '@/components/Footer'
 function Home() {
   return (
-    <div>
+    <div className='overflow-x-hidden'>
       <Header/>
       <HeroSection/>
       <Logo/>
